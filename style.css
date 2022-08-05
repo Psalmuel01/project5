@@ -1,0 +1,118 @@
+body {
+    background: url(images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    font-size: 16px;
+    font-family: "Red Hat Display";
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+h1, h4 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+p {
+    color: hsl(224, 23%, 55%);
+    font-weight: 400;
+}
+
+button {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border: 0;
+    padding: 7%;
+    border-radius: 15px;
+    width: 100%;
+    margin-top: 5%;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 700;
+}
+
+button:hover {
+    opacity: 0.75;
+}
+
+.container {
+    width: 70%;
+    margin: 10% auto;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.hero {
+   width: 100%;
+   border-radius: 15px 15px 0 0;
+}
+
+.text {
+    padding: 7% 10%;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.copy {
+    padding: 5%;
+    padding-top: 0;
+}
+
+.pricing {
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 7%;
+    padding: 5%;
+    width: auto;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    margin-right: 5%;
+}
+
+.plan {
+    line-height: .3rem;
+    margin-right: 15%;
+}
+
+.cancel {
+    font-weight: 700;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.cancel:hover {
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+@media only screen and (min-width: 768px) {
+    body {
+        background: url(images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-color: hsl(225, 100%, 94%);
+    }
+    .container {
+        width: 33%;
+    }   
+}
